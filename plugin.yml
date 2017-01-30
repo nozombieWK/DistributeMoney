@@ -1,0 +1,15 @@
+name: DistributeMoney
+main: com.github.nozombieWK.distributemoney.Main
+version: 0.1
+depends: [Vault]
+
+commands:
+  dismoney: 
+    description: Distribute a player's money to every online player
+    usage: /dism player money
+    
+permissions:
+  dismoney.use:
+    default: op
+    description: Permission of the command /dism
+    
